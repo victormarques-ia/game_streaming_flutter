@@ -7,6 +7,10 @@ import 'package:game_streaming/shared/popular_channel_item.dart';
 import 'package:game_streaming/shared/rounded_label.dart';
 
 class ExploreAll extends StatefulWidget {
+  final Function onPress;
+
+  ExploreAll({@required this.onPress});
+
   @override
   _ExploreAllState createState() => _ExploreAllState();
 }
@@ -145,12 +149,17 @@ class _ExploreAllState extends State<ExploreAll> {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        Text(
-                          "Open all",
-                          style: TextStyle(
-                            color: Colors.grey[600],
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
+                        GestureDetector(
+                          onTap: () {
+                            widget.onPress();
+                          },
+                          child: Text(
+                            "Open all",
+                            style: TextStyle(
+                              color: Colors.grey[600],
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                         ),
                       ],
