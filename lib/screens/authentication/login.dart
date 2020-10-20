@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game_streaming/screens/authentication/master.dart';
 import 'package:game_streaming/utils/constants.dart';
 import 'package:game_streaming/shared/rounded_button.dart';
 import 'package:game_streaming/shared/custom_field.dart';
@@ -54,8 +55,15 @@ class Login extends StatelessWidget {
               RoundedButton(
                 text: "Log In",
                 color: kPrimaryColor,
-                onPress: () {},
-              )
+                onPress: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => (Master()),
+                    ),
+                  );
+                },
+              ),
             ],
           ),
         ),
