@@ -1,16 +1,18 @@
-# game_streaming
+# Game Streaming App
 
-A new Flutter project.
+This was a study app, focusing mainly on understanding how to customize another app made in Flutter even using material design. I helped this [video](https://www.youtube.com/watch?v=M5LnRtOyFgU&ab_channel=MadewithFlutter) 
 
-## Getting Started
+![](https://github.com/victormarques-ia/game_streaming_flutter/blob/main/assets/game-streaming.gif)
 
-This project is a starting point for a Flutter application.
+## How to run
 
-A few resources to get you started if this is your first Flutter project:
+The process to run this project in the best way can be followed by the Flutter documentation.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [Flutter documentation](https://flutter.dev/docs/get-started/install)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies and dependencies
+
+- **Flutter** 
+- `cupertino_icons: ^1.0.0`
+- `google_fonts: ^1.1.0`
+- `flutter_icons: ^1.1.0`
