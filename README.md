@@ -1,4 +1,4 @@
-# Game Streaming App
+# Game Streaming App made with Flutter
 
 This was a study app, focusing mainly on understanding how to customize another app made in Flutter even using material design. I helped this [video](https://www.youtube.com/watch?v=M5LnRtOyFgU&ab_channel=MadewithFlutter) 
 
